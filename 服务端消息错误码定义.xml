@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+<!--
+服务名列表
+	service.name				            20000
+	
+系统ID列表：错误码高八位为相应系统ID
+    全局通用                                0x00
+	个人中心系统  		                    0x01
+
+-->
+
+	<!--错误码定义，0为正确-->
+	<err_code>
+		<!-- id="0x00" name="全局通用" -->
+			<ec id="0x00000001" chs_desc="未知错误" eng_desc="" />
+			<ec id="0x00000002" chs_desc="JSON格式有误或字段取值错误" eng_desc="" />
+			
+		<!-- id="0x0005" name="个人中心系统" -->
+			<ec id="0x01000001" chs_desc="xxx" eng_desc="" />
+	</err_code>
+</root>
+
